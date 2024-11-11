@@ -19,8 +19,5 @@ const userSchema = new mongoose.Schema({
 
 const User = mongoose.model('User', userSchema);
 
-app.get('/', (req, res) => {
-    res.send('Hello World!');
-});
 
 export default User;
